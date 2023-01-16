@@ -10,10 +10,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    #notice {
+    align-items: center;
+    text-align: center;
+    border: 2px solid blue;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 400px;
+}
+</style>
 <body>
 <div id="notice">
-    <p>Bạn đã đăng ký thành công sinh viên</p>
-    <a href="form.php">Quay lại danh sách sinh viên</a>
+    <p>Bạn đã đăng ký thành công người dùng</p>
+    <a href="UpdateUserView.php">Quay lại danh sách sinh viên</a>
 </div>
 </body>
 
